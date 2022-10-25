@@ -1,0 +1,41 @@
+.todo {
+  background-color: rgb(98, 156, 244);
+  box-shadow: 1px 1px 1px 1px black inset;
+  margin: 0.5rem;
+  border-radius: 0.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.9rem;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  color: white;
+}
+.todo:hover {
+  background-color: rgb(171, 204, 254);
+}
+.todo p {
+  opacity: 0.6;
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+  color: red;
+  cursor: pointer;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+.btn:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}

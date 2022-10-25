@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sec {
+  flex-direction: column;
+  background-color: rgb(167, 198, 245);
+  min-height: 97.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: white;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5), -1px 1px 1px rgba(0, 0, 0, 0.5);
+  font-size: 2rem;
+}
+
+.footer {
+  background-color: rgb(76, 146, 251);
+  font-size: 0.8rem;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
